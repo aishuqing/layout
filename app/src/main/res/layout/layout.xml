@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="One,One"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,One"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,one"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,one"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+</LinearLayout>
