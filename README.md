@@ -12,166 +12,25 @@ top、bottom、left、right顾名思义为内部控件居顶、低、左、右�
 
 android:layout_weight：权重，用来分配当前控件在剩余空间的大小。
 使用权重一般要把分配该权重方向的长度设置为零，比如在水平方向分配权重，就把width设置为零。
- 
-代码：
-<LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:text="One,One"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,1" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="One,two"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,2" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="One,three"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,3" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="One,four"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,4" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="two,One"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,1" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="two,two"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,2" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="two,three"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,3" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="two,four"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,4" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="three,one"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,1" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="three,two"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,2" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="three,three"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,3" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="three,four"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,4" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="four,one"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,1" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="four,two"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            android:textColor="#ffffff"
-            tools:text="1,2" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="four,three"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,3" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="four,four"
-            android:textColor="#ffffff"
-            android:layout_marginTop="3dip"
-            android:layout_marginLeft="3dip"
-            tools:text="1,4" />
-    </LinearLayout>
- 
+
 截图：![](https://github.com/aishuqing/layout/blob/master/屏幕快照%202019-03-18%20下午10.21.30.png)
 ### 三：约束布局
- 
-代码
-
+ 列举几点来表明ConstraintLayout是如何能解决这个矛盾，它的强大之处。 
+Constraint Layout可以在不嵌套view group的情况下实现非常庞大、复杂的布局。实现扁平化。 
+Constraint Layout同时具有Relative Layout和Linear Layout的优点、特性。功能强大。 
+使用Constraint Layout来布局时性能要比其他布局方式高。性能比较具体参考官方文档 ：ConstraintLayout性能优势解析-官文 
 截图: ![](https://github.com/aishuqing/layout/blob/master/屏幕快照%202019-03-18%20下午10.20.46.png)
 #### 四：表格布局
-
-代码
+表格布局，适用于多行多列的布局格式，每个TableLayout是由多个TableRow组成，一个TableRow就表示TableLayout中的每一行，这一行可以由多个子元素组成。实际上TableLayout和TableRow都是LineLayout线性布局的子类。但是TableRow的参数android:orientation属性值固定为horizontal，且android:layout_width=MATCH_PARENT，android:layout_height=WRAP_CONTENT。所以TableRow实际是一个横向的线性布局，且所以子元素宽度和高度一致。
+注意：在TableLayout中，单元格可以为空，但是不能跨列，意思是只能不能有相邻的单元格为空。
+TableLayout常用属性：
+android:shrinkColumns：设置可收缩的列，内容过多就收缩显示到第二行
+android:stretchColumns：设置可伸展的列，将空白区域填充满整个列
+android:collapseColumns：设置要隐藏的列
+列的索引从0开始，shrinkColumns和stretchColumns可以同时设置。
+子控件常用属性：
+android:layout_column：第几列
+android:layout_span：占据列数
 
 截图： ![](https://github.com/aishuqing/layout/blob/master/屏幕快照%202019-03-18%20下午10.21.05.png)
 
