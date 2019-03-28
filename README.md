@@ -13,7 +13,155 @@ top、bottom、left、right顾名思义为内部控件居顶、低、左、右�
 android:layout_weight：权重，用来分配当前控件在剩余空间的大小。
 使用权重一般要把分配该权重方向的长度设置为零，比如在水平方向分配权重，就把width设置为零。
  
-代码
+代码：
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="One,One"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,One"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,one"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,one"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,two"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#ffffff"
+            tools:text="1,2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,three"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,four"
+            android:textColor="#ffffff"
+            android:layout_marginTop="3dip"
+            android:layout_marginLeft="3dip"
+            tools:text="1,4" />
+    </LinearLayout>
  
 截图：![](https://github.com/aishuqing/layout/blob/master/屏幕快照%202019-03-18%20下午10.21.30.png)
 ### 三：约束布局
